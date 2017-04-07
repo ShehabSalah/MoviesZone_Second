@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <item >
+        <shape
+            android:shape="rectangle">
+            <gradient
+                android:startColor="#000000"
+                android:centerColor="#bf000000"
+                android:endColor="#03000000"
+                android:angle="270"
+                android:type="linear"> <!-- Change this value to have the correct shadow angle, must be multiple from 45 -->
+            </gradient>
+        </shape>
+    </item>
+    <item android:bottom="5dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/moviesZonePrimary" />
+        </shape>
+    </item>
+</layer-list>

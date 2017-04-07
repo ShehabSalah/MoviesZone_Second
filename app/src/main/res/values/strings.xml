@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Movies Zone</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content" translatable="false">MOVIES\nZONE</string>
+    <string name="pref_order_key" translatable="false">order</string>
+    <string name="popular" translatable="false">Popular</string>
+    <string name="top_rated" translatable="false">Top Rated</string>
+    <string name="favorite_list_name">Favorite</string>
+    <string name="poster_image">poster_image</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_network">Network not available</string>
+    <string name="no_data">There is no data to display!</string>
+    <string name="vote">%1$s / 10</string>
+    <string name="trailers">Trailers: </string>
+    <string name="reviews">Reviews: </string>
+    <string name="unfavorite">Remove From Favorite</string>
+    <string name="favorite">Add To Favorite</string>
+    <string name="details_title">Movie Details</string>
+
+
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">movieszone.platformhouse.com</string>
+    <string name="content_authority">com.platformhouse.movieszone.movieszone</string>
+
+    <string name="notification_big_text">
+    Check the last update of hollywood most poplar and top rated movies.
+    </string>
+    <string name="notification">
+    Check the last update of hollywood movies.
+    </string>
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification
+    </string>
+    <!--Movies Activity Titles-->
+    <string name="popular_title">Popular Movies</string>
+    <string name="top_rated_title">Top Rated Movies</string>
+    <string name="favorite_title">Favorite Movies</string>
+
+    <!--Intents-->
+    <string name="movie_list">moviesList</string>
+
+    <!--API-->
+    <string name="method" translatable="false">GET</string>
+
+</resources>
